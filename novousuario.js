@@ -14,18 +14,9 @@ function fun_cadastro(){
         "                <input type=\"email\" id=\"login-email\" />\n" +
         "            </div>\n" +
         "            <div class=\"input-block\">\n" +
-        "                <label for=\"login-email\">Telefone</label>\n" +
-        "                <input type=\"telefone\" id=\"login-telefone\" />\n" +
-        "            </div>\n" +
-        "            <div class=\"input-block\">\n" +
-        "                <label for=\"login-password\">Senha</label>\n" +
+        "                <label for=\"login-password\">Password</label>\n" +
         "                <input type=\"password\" id=\"login-password\" />\n" +
         "            </div>\n" +
-        "            <button type=\"submit\" class=\"btn-cad\" onclick='confirm_cad()' >Cadastrar</button>\n" +
+        "            <button type=\"submit\" class=\"btn-login\">Cadastrar</button>\n" +
         "        </form>";
-}
-
-function confirm_cad(){
-
-    alert("tratamento de dados e volta para pagina inical")
 }
