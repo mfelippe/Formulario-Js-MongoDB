@@ -75,6 +75,16 @@ form .link_cadastro{
     font-size: 12px;
     color: #faad0c;
     text-align: center;
+}
+form .btn-cad{
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: #ff9605;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    padding: 7px;
 
 }
 
@@ -87,6 +97,8 @@ form{
     animation-name: fade;
     animation-duration: 2s;
 }
+
+
 @keyframes fade {
     from{
         opacity: 0;
