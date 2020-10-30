@@ -1,8 +1,15 @@
-var form = document.querySelector("form");
 
+/* transformação da parte de login para pagina de cadastro */
 
 function fun_cadastro(){
-    var form = document.querySelector("form");
+    const form = document.querySelector("form");
+    const titulo = document.querySelector("h1");
+
+    /* mudanças no titulo da pagina */
+    titulo.classList.add("titulo-cadastro");
+    titulo.innerHTML = "Cadastro ";
+    /* mudanças no form da pagina */
+
     form.classList.add("form-cadastro");
     form.innerHTML = "<form >\n" +
         "            <div class=\"input-block\">\n" +
