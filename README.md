@@ -7,7 +7,7 @@
 <img src="imagens/index.JPG">
 
 <h6> tela de cadastro</h6>
-<img src="imagens/cad.jpg">
+<img src="imagens/cad.JPG">
 
 
 
