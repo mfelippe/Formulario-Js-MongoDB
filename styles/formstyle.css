@@ -97,7 +97,11 @@ form{
     animation-name: fade;
     animation-duration: 2s;
 }
+.form-cadastro{
 
+    animation: fade 2s;
+
+}
 
 @keyframes fade {
     from{
@@ -108,4 +112,27 @@ form{
         transform: scale(1);
          }
 }
-/* form de cadastro */
+/* linhas animação */
+body{
+    overflow: hidden;
+}
+.lines li{
+    width: 5px;
+    height: 15px;
+    background-color: rgba(255,255,255,0.50);
+    display:block;
+    position: absolute;
+    bottom: 0;
+    animation: up 2s infinite alternate;
+}
+@keyframes up {
+    from{
+        opacity: 0;
+        transform: translateY(0);
+    }50%{
+        opacity: 1;
+    }to{
+        opacity: 0;
+        transform: translateY(-700px);
+   }
+}
